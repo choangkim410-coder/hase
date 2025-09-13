@@ -1,86 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Pet Lovers Community</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #f8f9fa;
-      color: #333;
-    }
-    header {
-      background-color: #ffcc70;
-      padding: 40px 20px;
-      text-align: center;
-    }
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
-    }
-    h2 {
-      color: #f57c00;
-    }
-    img {
-      width: 100%;
-      border-radius: 10px;
-      margin: 20px 0;
-    }
-    p {
-      line-height: 1.6;
-    }
-    ul {
-      margin-left: 20px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Immobilien in Deutschland</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #2e86de;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        .property {
+            background-color: white;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .property img {
+            width: 300px;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .property-details {
+            padding: 20px;
+            flex: 1;
+        }
+
+        .property-details h2 {
+            margin-top: 0;
+        }
+
+        .price {
+            color: #27ae60;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Pet Lovers Community</h1>
-    <p>Celebrating the Joy of Dogs and Cats</p>
-  </header>
 
-  <div class="container">
-    <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=1200&q=80" alt="Cute dog and cat">
+<header>
+    <h1>Immobilien in Deutschland</h1>
+    <p>Finden Sie Ihr Traumhaus in Deutschland</p>
+</header>
 
-    <h2>Our Mission</h2>
-    <p>
-      The Pet Lovers Community is dedicated to bringing together people who adore dogs and cats. We share stories, provide pet care tips, and support one another through the ups and downs of pet ownership.
-    </p>
+<div class="container">
 
-    <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=1200&q=80" alt="Happy dog playing">
+    <div class="property">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Villa_H%C3%BCgel_S%C3%BCdfront.jpg" alt="Haus in Berlin">
+        <div class="property-details">
+            <h2>Elegante Villa in Berlin</h2>
+            <p>Diese wunderschöne Villa befindet sich im Herzen Berlins und bietet luxuriöses Wohnen mit einem großen Garten.</p>
+            <p class="price">Preis: €1.200.000</p>
+        </div>
+    </div>
 
-    <h2>Why Pets Matter</h2>
-    <ul>
-      <li>Pets provide emotional support and companionship</li>
-      <li>They help reduce stress and anxiety</li>
-      <li>They teach responsibility and compassion</li>
-      <li>They become cherished members of our families</li>
-    </ul>
+    <div class="property">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Mehrfamilienhaus_Karlsruhe.jpg/800px-Mehrfamilienhaus_Karlsruhe.jpg" alt="Wohnung in München">
+        <div class="property-details">
+            <h2>Moderne Wohnung in München</h2>
+            <p>Geräumige 3-Zimmer-Wohnung mit Balkon und moderner Ausstattung in einer ruhigen Lage in München.</p>
+            <p class="price">Preis: €850.000</p>
+        </div>
+    </div>
 
-    <img src="https://images.unsplash.com/photo-1601758003122-58e5f12c8d13?auto=format&fit=crop&w=1200&q=80" alt="Cat looking at camera">
+    <div class="property">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Haus_im_Gl%C3%BCck%2C_Bauhausarchitektur_in_Dessau.jpg/800px-Haus_im_Gl%C3%BCck%2C_Bauhausarchitektur_in_Dessau.jpg" alt="Haus in Hamburg">
+        <div class="property-details">
+            <h2>Stadthaus in Hamburg</h2>
+            <p>Ein stilvolles Stadthaus im Bauhaus-Stil, ideal für Familien und nur wenige Minuten vom Stadtzentrum entfernt.</p>
+            <p class="price">Preis: €990.000</p>
+        </div>
+    </div>
 
-    <h2>Ways to Get Involved</h2>
-    <p>
-      Join our online forums, attend local pet events, or volunteer at animal shelters. Whether you're a new pet parent or a lifelong animal lover, there's a place for you in our community.
-    </p>
+</div>
 
-    <img src="https://images.unsplash.com/photo-1600267165876-b3b8c1dc1d3d?auto=format&fit=crop&w=1200&q=80" alt="Pet adoption event">
-
-    <h2>Adopt, Don't Shop</h2>
-    <p>
-      We advocate for pet adoption and support rescue organizations. Every pet deserves a loving home, and you can make a difference by adopting a furry friend in need.
-    </p>
-
-    <img src="https://images.unsplash.com/photo-1598137260926-4dd3cde442b0?auto=format&fit=crop&w=1200&q=80" alt="Dog and cat together">
-
-    <h2>Join Us</h2>
-    <p>
-      Be part of a warm, welcoming space where your love for pets is celebrated. Share photos, connect with other pet parents, and help make the world a kinder place for animals.
-    </p>
-  </div>
 </body>
 </html>
